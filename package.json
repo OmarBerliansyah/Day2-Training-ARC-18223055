@@ -1,0 +1,19 @@
+{
+  "name": "day2-training-arc-18223055",
+  "version": "1.0.0",
+  "description": "DOM Manipulation and Event Listener",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OmarBerliansyah/Day2-Training-ARC-18223055.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OmarBerliansyah/Day2-Training-ARC-18223055/issues"
+  },
+  "homepage": "https://github.com/OmarBerliansyah/Day2-Training-ARC-18223055#readme"
+}
