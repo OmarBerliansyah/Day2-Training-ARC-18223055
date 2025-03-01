@@ -3,23 +3,16 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Product Gallery | ARC Day 2</title>
+    <title> Tugas ARC Day 2 - Muhammad Omar Berliansyah </title>
     <style>:root {
         --primary-color: #3498db;
         --secondary-color: #2ecc71;
         --accent-color: #f39c12;
         --text-color: #2c3e50;
         --light-bg: #f5f7fa;
-        --card-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
         --transition: all 0.3s ease;
     }
-    
-    * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-    }
-    
+ 
     body {
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         line-height: 1.6;
@@ -56,7 +49,7 @@
         border-radius: 8px;
         text-align: center;
         margin-bottom: 2rem;
-        box-shadow: var(--card-shadow);
+        box-shadow: var(0 4px 6px rgba(0, 0, 0, 0.1));
     }
     
     .hero-title {
@@ -65,7 +58,7 @@
         color: var(--primary-color);
     }
     
-    .cta-button {
+    .button {
         background-color: var(--primary-color);
         color: white;
         border: none;
@@ -77,7 +70,7 @@
         margin-top: 1rem;
     }
     
-    .cta-button:hover {
+    .button:hover {
         background-color: #2980b9;
         transform: translateY(-2px);
     }
@@ -93,7 +86,7 @@
         background-color: white;
         border-radius: 8px;
         overflow: hidden;
-        box-shadow: var(--card-shadow);
+        box-shadow: var(0 4px 6px rgba(0, 0, 0, 0.1));
         transition: var(--transition);
     }
     
@@ -177,8 +170,7 @@
         border-top: 1px solid #eaeaea;
         color: #666;
     }
-    
-    /* Animation */
+
     @keyframes fadeIn {
         from {
             opacity: 0;
@@ -212,7 +204,7 @@
         <section class="hero">
             <h2 class="hero-title">Tentang Tugas: </h2>
             <p class="hero-description">Tugas ini implementasi untuk mengambil data dummy dari DummyJSON dan menampilkannya di web ini.</p>
-            <button id="fetch-products" class="cta-button">Load Products</button>
+            <button id="fetch-products" class="button">Load Products</button>
         </section>
         
         <section id="products-container" class="products hidden">

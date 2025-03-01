@@ -75,7 +75,7 @@ document.addEventListener('DOMContentLoaded', function() {
         }
         
         if (hasHalfStar) {
-            starsHTML += '☆';
+            starsHTML += '★';
         }
         
         for (let i = 0; i < emptyStars; i++) {
